@@ -1,2 +1,7 @@
 server:
   port: 9181
+
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://192.168.43.80:9999/auth/user
