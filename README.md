@@ -1,5 +1,6 @@
-# Introduction
+# 组织服务
 
-demo from John Carnell
-
-use  Spring Boot 2.0.6.RELEASE instead of 1.4.4.RELEASE
+* 使用OAuth2校验服务调用
+* 通过配置中心自动配置
+* 使用kafka消息队列通知失效缓存
+* 使用sleuth和zipkin进行分布式跟踪
